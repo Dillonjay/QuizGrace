@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import { StyledNav } from './styles/StyledNav';
+import { StyledNav, StyledLogo, StyledNavCenter, StyledLinks } from './styles/StyledNav';
 
 class componentName extends Component {
   render() {
     return (
       <StyledNav>
+        <StyledLinks />
+        <StyledNavCenter />
+        <StyledLogo />
       </StyledNav>
     );
   }
