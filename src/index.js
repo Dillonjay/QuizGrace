@@ -7,6 +7,8 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './containers/App';
 import reducers from './reducers';
 
+import './styles/global-css';
+
 const history = createBrowserHistory();
 const store = createStore(reducers, applyMiddleware(routerMiddleware(history)));
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from '../../containers/Navigation';
 
 import StyledPageWrapper from './styles/StyledPageWrapper';
+import StyledFooter from './styles/StyledFooter';
 class componentName extends Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class componentName extends Component {
         <StyledPageWrapper>
           {this.props.render()}
         </StyledPageWrapper>
+        <StyledFooter />
       </React.Fragment>
     );
   }
