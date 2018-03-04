@@ -13,7 +13,9 @@ export const StyledNav = styled.div`
 `;
 
 export const StyledLinks = styled.div`
-  border: solid red;
+  border: solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 `;
 
 export const StyledLogo = styled.div`
