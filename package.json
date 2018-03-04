@@ -47,5 +47,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/justinjung04/universal-boilerplate.git"
+  },
+  "dependencies": {
+    "styled-components": "^3.1.6"
   }
 }
