@@ -5,7 +5,6 @@ class componentName extends Component {
   render() {
     return (
       <StyledNav>
-        dude
       </StyledNav>
     );
   }
