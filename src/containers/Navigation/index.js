@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 
 /* StyledComponents */
-import { StyledNav, StyledLogo, StyledNavCenter, StyledLinks } from './styles/StyledNav';
+import { StyledNav, StyledLogoDiv, StyledNavCenter, StyledLinks } from './styles/StyledNav';
 import { StyledLinkDiv, StyledLink } from './styles/StyledLink';
+import StyledLogo from './styles/StyledLogo';
 class componentName extends Component {
   render() {
     return (
       <StyledNav>
-        <StyledLogo />
+        <StyledLogoDiv>
+          <StyledLogo>
+            QuizGrace
+          </StyledLogo>
+        </StyledLogoDiv>
         <StyledNavCenter />
         <StyledLinks>
           <StyledLinkDiv>
