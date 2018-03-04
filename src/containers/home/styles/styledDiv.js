@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledDiv = styled.div`
   border: solid red;
   display: grid;
-  grid: 100px 100px / 100px auto 100px 100px;
+  grid: repeat(3, 100px) / repeat(2, 1fr 2fr);
   grid-gap: 10px;
   height: auto;
 `;

@@ -5,7 +5,6 @@ import HomePageLayout from '../../layouts/HomePageLayout';
 /* Styled Components */
 import { StyledDiv, StyledKid } from './styles/styledDiv';
 
-if(process.env.WEBPACK) require('./index.scss');
 
 const Home = ({ dispatch, todos }) => (
 	<React.Fragment>
