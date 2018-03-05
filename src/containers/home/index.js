@@ -13,7 +13,7 @@ const Home = ({ dispatch, todos }) => (
 				return (
 					<StyledDiv>
 						<StyledKid>
-							CSS
+							?
 						</StyledKid>
 						<StyledKid>
 							JS

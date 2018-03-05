@@ -36,6 +36,10 @@ export const StyledKid = styled.div`
     @media (min-width: 1175px) {
       grid-column: 1 / 2;
       grid-row: 2 / span 6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 10em;
     }
   }
   &:nth-child(2) {
