@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 const StyledPageWrapper = styled.div`
   margin-top: 75px;
-  height: calc(100vh - 200px);
-  padding: 30px 0;
+  height: calc(100vh - 155px);
   background: #d8e1e9;
 `;
 

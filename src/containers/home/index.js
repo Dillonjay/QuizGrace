@@ -12,17 +12,15 @@ const Home = ({ dispatch, todos }) => (
 			render={() => {
 				return (
 					<StyledDiv>
-						<StyledKid />
-						<StyledKid />
 						<StyledKid>
-							Chalkboard
+							1
 						</StyledKid>
-						<StyledKid />
-						<StyledKid />
-						<StyledKid />
-						<StyledKid />
-						<StyledKid />
-						<StyledKid />
+						<StyledKid>
+							3
+						</StyledKid>
+						<StyledKid>
+							3
+						</StyledKid>
 					</StyledDiv>
 				);
 			}}

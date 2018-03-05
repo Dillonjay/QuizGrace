@@ -11,7 +11,9 @@ class componentName extends Component {
         <StyledPageWrapper>
           {this.props.render()}
         </StyledPageWrapper>
-        <StyledFooter />
+        <StyledFooter>
+          Love you lots. Lets learn this shit! &#9760;
+        </StyledFooter>
       </React.Fragment>
     );
   }

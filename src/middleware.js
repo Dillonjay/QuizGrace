@@ -12,7 +12,7 @@ export default (req, res) => {
 			<!doctype html>
 			<html>
 				<head>
-					<title>My Universal App</title>
+					<title>Quiz Grace</title>
 				</head>
 				<body>
 					<div id='app'></div>
@@ -25,7 +25,7 @@ export default (req, res) => {
 			<!doctype html>
 			<html>
 				<head>
-					<title>My Universal App</title>
+					<title>Quiz Grace</title>
 					<link rel='stylesheet' href='bundle.css'>
 				</head>
 				<body>
