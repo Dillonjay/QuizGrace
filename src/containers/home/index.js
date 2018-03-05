@@ -13,13 +13,16 @@ const Home = ({ dispatch, todos }) => (
 				return (
 					<StyledDiv>
 						<StyledKid>
-							1
+							CSS
 						</StyledKid>
 						<StyledKid>
-							3
+							JS
+							<br />
+							For this page leave transition, I want to collapse the Navigation bar down until its on top
+							of the footer. What comes in behind the nav bar is a cool loader anmation.
 						</StyledKid>
 						<StyledKid>
-							3
+							HTML
 						</StyledKid>
 					</StyledDiv>
 				);
